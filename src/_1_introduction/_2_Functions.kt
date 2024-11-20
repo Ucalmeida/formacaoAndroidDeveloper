@@ -17,6 +17,8 @@ fun multiply(x: Int, y: Int) = x * y    // Implicitamente entende que o retorno 
 fun main() {
     printMessage("Hello, World!")
     printMessageWithPrefix("Hello", "Log")
+    printMessageWithPrefix("Hello")
+    printMessageWithPrefix(prefix = "Log", message = "Hello")
     println(sum(2, 4))
     println(multiply(3, 4))
 }
